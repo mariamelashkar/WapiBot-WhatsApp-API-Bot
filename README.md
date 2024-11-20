@@ -17,6 +17,7 @@ WapiBot is a lightweight, scalable Node.js-based API that uses the `whatsapp-web
 ## QR Code for Authentication
 
 To authenticate with WhatsApp Web, scan the QR code displayed when the application starts. During runtime, the application generates a QR code that needs to be scanned using the WhatsApp mobile app to establish a secure session.
+
 ---
 
 ## Technologies Used
