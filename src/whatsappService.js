@@ -1,12 +1,5 @@
 const { Client, LocalAuth, List } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
-//debug/test lines
-// List of contacts
-// const contacts = [
-//     "+201159523293", // Replace with valid WhatsApp numbers
-//     "+201112792604",
-//     "+201144250999"
-// ];
 
 // Initialize the client with local authentication
 const client = new Client({
