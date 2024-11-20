@@ -1,6 +1,6 @@
 const { Client, LocalAuth, List } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
-
+//debug/test lines
 // List of contacts
 // const contacts = [
 //     "+201159523293", // Replace with valid WhatsApp numbers
@@ -35,27 +35,8 @@ client.on("ready", async () => {
                 continue;
             }
 
-            // Create a text message (default)
-            const message = "Hello! This is a simple text message.";
-
-            // Uncomment below to send a list message instead
-            /*
-            const productsList = new List(
-                "Here's our list of products at 50% off",
-                "View all products", // Button label
-                [
-                    {
-                        title: "Products list",
-                        rows: [
-                            { id: "apple", title: "Apple" },
-                            { id: "mango", title: "Mango" },
-                            { id: "banana", title: "Banana" },
-                        ],
-                    },
-                ],
-                "Please select a product" // Footer text
-            );
-            */
+            // debug/test line
+            // const message = "Hello! This is a simple text message.";
 
             // Send the message (either text or list)
             await client.sendMessage(chatId, message);
